@@ -1,0 +1,16 @@
+
+	Funcția SELECT (SELECTARE) selectează și afișează valori dintr-un tabel al unei baze de date.	
+
+Sintaxa:
+
+	SELECT [column_name]… FROM [table_name]
+	SELECT * FROM [table_name]
+	SELECT [column_name]… FROM [table_name] WHERE [condition]
+
+Descriere:
+
+	În primul rând, funcția va primi după cuvântul cheie SELECT ca prim(e) argument(e) numele coloanei(lor) din care se vor selecta datele dorite. Dacă numele coloanelor nu este corect sau nu există funcția va returna o eroare .În cazul în care utilizatorul va dori să selecteze toate coloanele unui tabel va trebui să aplice ca prim argument al funcției caracterul ”*”. După ce selecția coloanelor a fost făcută se va scrie cuvântul cheie FROM urmat apoi de un argument dat de către utilizator ce va semnifica numele tabelului din care se va face selecția coloanelor. Acum tot ce mai are utilizatorul de făcut, dacă acesta dorește ca elementele selectate să îndeplinească o anumită condiție, este să scrie cuvântul cheie WHERE urmat de condiția dorită. Ultimul pas este de a apăsa enter pentru a se executa comanda. Pentru a executa comanda dată de utilizator și pentru a selecta și afișa datele dorite pe ecran funcția copiază conținutul necesar într-un fișier de tipul Valori Separate De Virgulă - Comma Separated Values - C		SV și cu ajutorul comenzii “csvcut” funcția selectează coloanele dorite după numele acestora și le va afișa. Am folosit fișiere de tip CSV datorită formatului tabular în care aceste fișiere păstrează informația.
+
+Autori:
+	
+	Vărzan Laurențiu-Adrian

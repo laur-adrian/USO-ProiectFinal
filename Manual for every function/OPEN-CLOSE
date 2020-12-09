@@ -1,0 +1,13 @@
+Sintaxa:
+
+	OPEN [database_name] 
+
+	CLOSE DB
+
+Descriere:
+
+	Cele doua functii OPEN (DESCHIDE) și CLOSE (ÎNCHIDE) sunt complementare, ele fiind folosite la accesarea sau părăsirea unei baze date. Funcția OPEN necesita numele unei baze de date, deoarece utilizatorul are posibilitatea sa creeze mai multe baze de date care sunt identificate după nume, iar funcția CLOSE nu necesita ca parametru numele bazei de date în care se afla, deoarece se poate ieși doar din baza de date în care se afla utilizatorul. Funcțiile folosesc comanda cd ‘databasename’ pentru a accesa directoarele în cadrul funcției OPEN și cd .. pentru a reveni în directorul părinte “SQL”.
+
+Autor:
+
+	Bălmău Dragoș-Constantin

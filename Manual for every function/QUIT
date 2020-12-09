@@ -1,0 +1,13 @@
+	Funcția QUIT (IEȘIRE) facilitează ieșirea din program.
+
+Sintaxa:
+
+	QUIT
+
+Descriere:
+	
+	Apelarea funcției QUIT va rezulta în terminarea programului. Un dialog este afișat pentru confirmarea acțiunii (Y/N)
+
+Autor:
+
+	Cotescu Victor Andrei

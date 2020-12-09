@@ -1,0 +1,13 @@
+	Funcția DBS afișează bazele de date existente.
+
+Sintaxa:
+
+	DBS
+
+Descriere:
+
+	Funcția afișează toate bazele de date existente atât timp cât nu există una selectată. Dacă o bază de date existentă este deja selectată, funcția va returna o eroare.
+
+Autor:
+
+	Cotescu Victor-Andrei

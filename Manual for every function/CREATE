@@ -1,0 +1,14 @@
+Sintaxa:
+	
+	CREATE [file_type]... [file_name] [column_name] [data_type]...
+
+Descriere: 
+
+	Funcția CREATE (CREARE) are rolul de a genera directoarele și fișierele solicitate de utilizator prin sintaxa(doar dacă acestea nu exista deja, altfel se afișează un mesaj de eroare), astfel directoarele ținând locul bazelor de date, iar fișierele înlocuind tabel in care se stocheaza informatiile. O baza de date poate avea mai multe tabele, iar o tabela mai multe coloane. Toate aceste fișiere sunt create în directorul principal al aplicației (directorul “SQL”), care implicit sa găsește în spațiul alocat fiecărui utilizator al mașinii virtuale. 
+
+	Sunt doua modalități de a utiliza funcția descrisă anterior cu ajutorul cuvintelor cheie (DB abreviere de la “database” - baza de date și TABEL - tabel). În cazul generării tabelei, după precizarea numelui acesteia, se tastează numele coloanei urmat de tipul de date ce va fi stocat în aceasta (pot exista mai multe coloane, iar în acest caz după fiecare tip de date precizat pentru o coloana va urma denumirea următoarei). Stocarea în fiser sa va face sub forma unui tabel în care pe prima linie sunt afișate tipurile de date în ordinea precizata, pe randul al doilea se afla numele coloanelor create din linia de comanda, iar incepand cu randul al treilea se vor afla datele/informațiile introduse cu ajutorul funcției INSERT(6.3), despărțite de cate un spatiu.
+	
+Autori:
+
+	Bălmău Dragoș-Constantin
+	Cotescu Victor-Andrei

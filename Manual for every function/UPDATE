@@ -1,0 +1,13 @@
+	Funcția UPDATE (ACTUALIZARE) actualizeaza informatii deja existente intr-un table existent in baza de date.
+	
+Sintaxa:
+
+	UPDATE [table_name] SET [nume_coloana] = [valoare] .. WHERE [nume_coloana] = [condiție] ..
+
+Descriere:
+
+	Funcția primește ca parametrii numele table-ului ce urmează să fie actualizat, numele coloanelor ce vor fi actualizate și valorile acestora după cuvântul cheie SET, iar după cuvântul cheie WHERE coloanele și condițiile după care se va face update-ul. Se vor înlocui, în toate rândurile existente din table-ul selectat, în toate coloanele ce îndeplinesc condițiile selectate cu valorile introduse. Funcția este case sensitive pentru cuvintele cheie. Dacă acestea vor fi scrise altfel decât cu litere mari, funcția va returna o eroare de sintaxă. De asemenea dacă oricare dintre numele coloanelor, fie primite ca parametrii după SET, ori după WHERE nu există iî table sau sunt scrise greșit, funcția returnează o eroare ce descrie tipul de greșeală aferent. Este realizată verificarea tipurilor de date din table-ul în care actualizăm informații, iar dacă acestea nu corespund este returnată o eroare care descrie ce coloană nu corespunde tipului de date din table-ul sursă.
+
+Autor:
+
+	Cotescu Victor-Andrei

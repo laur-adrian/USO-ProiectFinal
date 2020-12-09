@@ -1,0 +1,13 @@
+Sintaxa:
+
+	DROP TABLE [tablename]
+
+	DROP DB [databasename]
+
+Descriere:
+
+	Funcția DROP (RENUNȚARE) are doua modalități de apelare, prima data pentru a șterge o tabela dintr-o baza de date prin folosirea primei variante de sintaxa (apelarea funcției urmată de cuvântul cheie TABLE și de numele tabelei ce va fi ștearsă - rm table_name) și cea de-a doua varianta folosită pentru a șterge o baza de date cu tot cu tabelele din ea(apelarea funcției urmată de cuvântul cheie DB și de numele bazei de date ce va fi ștearsă recursiv - rm -r database_name) 
+
+Autor:
+
+	Bălmău Dragoș-Constantin

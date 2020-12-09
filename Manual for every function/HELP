@@ -1,0 +1,14 @@
+	Functia HELP (AJUTOR) returnează descrierea comenzilor existente.
+
+Sintaxa:
+
+	HELP [comanda] 
+
+Descriere:
+
+	Funcția primește ca argument numele unei comenzi și returnează informații pentru utilizarea acesteia. Aceasta poate fi apelată și fără argument și va returna informații despre comenzile existente și modul de utilizare al funcției help.
+
+Autori:
+
+	Bălmău Dragoș-Constantin
+	Cotescu Victor-Andrei

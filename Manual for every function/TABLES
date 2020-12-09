@@ -1,0 +1,13 @@
+	Funcția TABLES (TABELE) afișează tabelele existente
+
+Sintaxa:
+
+	TABLES
+
+Descriere:
+
+	Funcția afișează toate tabelele existente în baza de date existentă. Dacă nu există o bază de date selectată, funcția va returna o eroare.
+
+Autor:
+
+	Cotescu Victor-Andrei

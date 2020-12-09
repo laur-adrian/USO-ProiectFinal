@@ -1,0 +1,16 @@
+Sintaxa: 
+
+	INSERT INTO [table_name] [cloumn1] [column2] ... VALUES [value1] [value2] ..
+	
+Descriere:
+
+	Funcția inserează date într-un tabel deja existent, atunci când sintaxa este corectă, fișierul apelat există, iar coloanele în care se încearcă introducerea sunt apelate exact după numele din tabel. Altfel, pentru fiecare lucru în neconcordanță cu sintaxa “ideală” va semnala fiecare eroare în parte, de regulă cu sugestii pentru corectare. De asemenea, apare un mesaj corespunzător și atunci când introducerea se realizează cu succes.
+	Funcția permite introducerea datelor atât în toate coloanele tabelului, cât și în doar câteva dintre ele. Singura condiție pentru ca inserarea să se realizeze cu succes este ca numele coloanelor sa fie apelate în aceeași ordine în care apar în tabel. În coloanele nemenționate se va introduce un “-” pentru a sugera faptul că acolo este o informație lipsă.
+	În primul rând, după INSERT INTO funcția primește numele fișierului în care urmează să se realizeze inserarea. Pe urmă sunt introduse numele coloanelor în care dorim să introducem date. 
+	În al doilea rând, după cuvântul VALUES for fi introduse datele pe care dorim sa le introducem în coloanele enumerate anterior, respectând ordinea lor și tipul de date corespunzător fiecăreia.
+
+Autor:
+
+	Nicolescu Robert-Alexandru
+
+	
